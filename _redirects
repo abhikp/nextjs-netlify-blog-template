@@ -1,0 +1,17 @@
+# For now always redirect to our marketing page
+/.well-known/microsoft-identity-association /.well-known/microsoft-identity-association.json
+/.well-known/microsoft-identity-association.json /.well-known/microsoft-identity-association.json
+/privacy /privacy.pdf
+/privacy.pdf /privacy.pdf
+/verifyzoom.html /verifyzoom.html
+/zoomverify/verifyzoom.html /verifyzoom.html
+/msa /msa.pdf
+/msa.pdf /msa.pdf
+/disclosure /disclosure.pdf
+/disclosure.pdf /disclosure.pdf
+/security /security.pdf
+/security.pdf /security.pdf
+/support https://app.ashbyhq.com/support 302!
+/docs/zoom https://ashby.slab.com/public/using-the-ashby-zoom-integration-6wd24l2y 302!
+/   https://app.ashbyhq.com/product  302!
+/*  https://app.ashbyhq.com/product  302!
