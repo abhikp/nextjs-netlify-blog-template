@@ -16,4 +16,13 @@ module.exports = ({
     );
     return config;
   },
+  async redirects() {
+    return [
+      {
+        source: '/test-redirect',
+        destination: 'https://app.ashbyhq.com',
+        permanent: true,
+      },
+    ]
+  },
 });
